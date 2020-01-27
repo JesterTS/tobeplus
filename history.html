@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>CSProGame</title>
+    <script src="js/wow.min.js"></script>
+    <script>
+        var wow = new WOW().init();
+        wow;
+    </script>
+</head>
+
+<body class="page_product history-page">
+        <header class="header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-xl-2 col-lg-12"></div>
+                        <div class="col-12 col-xl-10 pr-0 col-lg-12">
+                            <div class="content_header d-md-flex align-items-center">
+                                <a href="" class="logo_item"></a>
+                                <div class="navigation_top d-lg-flex align-items-center ">
+                                    <a href="" class="item_menu">Продукция</a>
+                                    <a href="" class="item_menu">О нутриентах</a>
+                                    <a href="" class="item_menu">Блог</a>
+                                    <a href="" class="item_menu">Новости</a>
+                                    <a href="" class="item_menu">Контакты</a>
+                                </div>
+        
+                                <div class="right_header_block d-flex align-items-center">
+                                    <div class="menu_mobail_ico" onclick="$('.navigation_top').slideToggle();">
+                                       
+                                    </div>
+                                    <div class="lang_block">
+                                        <a href="" class="item_lang">Ru</a>
+                                        <a href="" class="item_lang">Eng</a>
+                                    </div>
+        
+                                    <a href="" class="cart_items">
+                                        <span class="mobail_hidden">Корзина</span> <span class="line_cart"></span> 0
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </header>
+
+
+
+            <div class="content_history" id="section_1">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-2 text-center">
+                            <a href="" class="link_back"><span class="line_link_back"></span>Главная</a>
+                        </div>
+                        <div class="col-12 col-lg-10">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="selected_block">
+                                        <img src="img/bg/imag.png" class="mw-100 image_history" alt="">
+                                        <div class="selected_nav">
+                                            <div class="block_arrow">
+                                                <a class="arrow_btn mobail_hidden scroll_up" onclick="prevYear()"><i class="fas fa-angle-up"></i></a>
+                                                <a class="arrow_btn mobail_hidden scroll_down" onclick="nextYear()"><i class="fas fa-angle-down"></i></a>
+                                                <a class="arrow_btn descktop_hidden scroll_up" onclick="prevYear()"><i class="fas fa-angle-left"></i></a>
+                                                <a class="arrow_btn descktop_hidden scroll_down" onclick="nextYear()"><i class="fas fa-angle-right"></i></a>
+
+                                            </div>
+                                            <div class="content_year">
+                                            <a data-blockS="1" class="item_selecter data_year_1 active">2000</a>
+                                            <a data-blockS="2" class="item_selecter data_year_2 next_year">1999</a>
+                                            <a data-blockS="3" class="item_selecter data_year_3">2003</a>
+                                            <a data-blockS="4" class="item_selecter data_year_4">2005</a>
+                                            <a data-blockS="5" class="item_selecter data_year_5">2005</a>
+                                            <a data-blockS="6" class="item_selecter data_year_6">2005</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 position-static">
+                                    
+                                    <div class="content_tabs_history opacityRim" id="content_th_1">
+                                            <div class="tab_history">
+                                                    <a class="active" onclick="historyTabs('1',this,'1');">История</a>
+                                                    <a onclick="historyTabs('2',this,'1');">Миссия</a>
+                                                    <a onclick="historyTabs('3',this,'1');">Принципы</a>
+                                                </div>
+                                        <p class="text_history" id="content_his_1">
+                                            1999Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_2">
+                                            2Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_3">
+                                            3Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                    </div>
+                                    <div class="content_tabs_history" id="content_th_2">
+                                            <div class="tab_history">
+                                                    <a class="active" onclick="historyTabs('4',this,'2');">История</a>
+                                                    <a onclick="historyTabs('5',this,'2');">Миссия</a>
+                                                    <a onclick="historyTabs('6',this,'2');">Принципы</a>
+                                                </div>
+                                        <p class="text_history" id="content_his_4">
+                                            2000Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_5">
+                                            2Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_6">
+                                            3Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                    </div>
+                                    <div class="content_tabs_history" id="content_th_3">
+                                            <div class="tab_history">
+                                                    <a class="active" onclick="historyTabs('7',this,'3');">История</a>
+                                                    <a onclick="historyTabs('8',this,'3');">Миссия</a>
+                                                    <a onclick="historyTabs('9',this,'3');">Принципы</a>
+                                                </div>
+                                        <p class="text_history" id="content_his_7">
+                                            2003Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_8">
+                                            2Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_9">
+                                            3Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                    </div>
+                                    <div class="content_tabs_history" id="content_th_4">
+                                            <div class="tab_history">
+                                                    <a class="active" onclick="historyTabs('10',this,'4');">История</a>
+                                                    <a onclick="historyTabs('11',this,'4');">Миссия</a>
+                                                    <a onclick="historyTabs('12',this,'4');">Принципы</a>
+                                                </div>
+                                        <p class="text_history" id="content_his_10">
+                                            2005Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_11">
+                                            2Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_12">
+                                            3Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                    </div>
+                                    <div class="content_tabs_history" id="content_th_5">
+                                            <div class="tab_history">
+                                                    <a class="active" onclick="historyTabs('13',this,'5');">История</a>
+                                                    <a onclick="historyTabs('14',this,'5');">Миссия</a>
+                                                    <a onclick="historyTabs('15',this,'5');">Принципы</a>
+                                                </div>
+                                        <p class="text_history" id="content_his_13">
+                                            2005Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_14">
+                                            2Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_15">
+                                            3Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                    </div>
+                                    <div class="content_tabs_history" id="content_th_6">
+                                            <div class="tab_history">
+                                                    <a class="active" onclick="historyTabs('16',this,'6');">История</a>
+                                                    <a onclick="historyTabs('17',this,'6');">Миссия</a>
+                                                    <a onclick="historyTabs('18',this,'6');">Принципы</a>
+                                                </div>
+                                        <p class="text_history" id="content_his_16">
+                                            2005Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_17">
+                                            2Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                        <p class="text_history hide_block" id="content_his_18">
+                                            3Начало разработки первых комплексов <br>
+                                            нутриентного питания на базе учреждений <br>Украины и Болгарии для реабилитации
+                                            онкобольных
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <a href="" class="logo_footer">
+                        <img src="img/elements/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 text-xl-center">
+                    <a href="" class="social_link">Facebook</a>
+                    <a href="" class="social_link">Instagramm</a>
+                </div>
+                <div class="col-12 col-md-4 text-md-right">
+                    <p class="copyright">© Copyright 2018</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/libs.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    
+
+</body>
+
+</html>
